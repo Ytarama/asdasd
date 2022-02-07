@@ -1,0 +1,92 @@
+a {
+    color:red; 
+    font-size:16px;
+}
+
+strong {
+    color:#19FBFF;
+}
+
+em {
+    color:rgba(255, 0, 0, 0.3);
+}
+
+#ssilka {
+    color:lime;
+}
+
+#test_ssilka {
+    font-size: 20px;
+    color:magenta;
+}
+
+.human {
+    color: mediumaquamarine;
+}
+
+.animal {
+    color: midnightblue;
+}
+
+.fish {
+    color: skyblue;
+}
+
+.message {
+    color: gray;
+    background-color: #e4e4e4;
+    border: 2px solid gray;
+    font-size: 20px;
+    margin: 10px;
+    padding: 25px;
+}
+
+.success {
+    background-color: green;
+    color: ghostwhite;
+    margin-left: 50px;
+}
+
+.fail {
+    background-color: red;
+    color: black;
+    margin-right: 50px;
+}
+
+.animal:hover {
+    border: 10px solid gray;
+}
+
+#test {
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    margin: 50px;
+    border: 7px solid orangered;
+    font-size: 40px;
+    border-radius: 30px;
+    opacity: 0.5;
+    box-shadow: 5px 5px 7px black;
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    font-weight: 800;
+
+    transform: rotate(0deg) scale(0.5);
+    transition: 5s all;
+}
+
+#test:hover {
+    opacity: 1;
+    transform: rotate(360deg);
+    background-color: red;
+}
+
+body {
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
